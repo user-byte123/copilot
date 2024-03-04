@@ -23,7 +23,7 @@ function Dashboard() {
         </div>
       </div>
       <div id='dashboardContainer2'> 
-        <div>
+        <div id='accounts'>
           <h4>ACCOUNTS <Icon> <CallMade /></Icon></h4>
         </div>
         <div>
