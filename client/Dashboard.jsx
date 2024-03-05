@@ -10,29 +10,29 @@ function Dashboard() {
       <NavBar id='NavBar'/>
       <div id='dashboardContainer1'>
         <div id='monthlySpending'>
-          <h3>Monthly Spending</h3>
-          <h4>TRANSACTIONS <Icon><CallMade /></Icon></h4>
+          <h4 style={{color:'rgba(255, 255, 255, 0.69)'}}>Monthly Spending</h4>
+          <h5 style={{color: 'rgb(48, 97, 195)'}}>TRANSACTIONS <Icon><CallMade /></Icon></h5>
         </div>
         <div id='transactions'>
-          <h3>Transactions To Review</h3>
-          <h4>VIEW ALL <Icon><CallMade /></Icon></h4>
+          <h4 style={{color:'rgba(255, 255, 255, 0.69)'}}>Transactions To Review</h4>
+          <h5 style={{color: 'rgb(48, 97, 195)'}}>VIEW ALL <Icon><CallMade /></Icon></h5>
         </div>
         <div id='monthlyIncome'>
-          <h3 >Monthly Income</h3>
-          <h4>NET CHANGE <Icon><CallMade /></Icon></h4>
+          <h4 style={{color:'rgba(255, 255, 255, 0.69)'}}>Monthly Income</h4>
+          <h5 style={{color: 'rgb(48, 97, 195)'}}>NET CHANGE <Icon><CallMade /></Icon></h5>
         </div>
       </div>
       <div id='dashboardContainer2'> 
         <div id='accounts'>
-          <h4>ACCOUNTS <Icon> <CallMade /></Icon></h4>
+          <h5 style={{color: 'rgb(48, 97, 195)'}}>ACCOUNTS <Icon> <CallMade /></Icon></h5>
         </div>
-        <div>
-          <h3>Top Categories</h3>
-          <h4>VIEW ALL <Icon><CallMade /></Icon></h4>
+        <div id='topCategories'>
+          <h4 style={{color:'rgba(255, 255, 255, 0.69)'}}>Top Categories</h4>
+          <h5 style={{color: 'rgb(48, 97, 195)'}}>VIEW ALL <Icon><CallMade /></Icon></h5>
         </div>
-        <div>
-          <h3>Next Two Weeks</h3>
-          <h4>RECURRINGS <Icon><CallMade /></Icon></h4>
+        <div id='recurrings'>
+          <h4 style={{color:'rgba(255, 255, 255, 0.69)'}}>Next Two Weeks</h4>
+          <h5 style={{color: 'rgb(48, 97, 195)'}}>RECURRINGS <Icon><CallMade /></Icon></h5>
         </div>
       </div>
     </div>
