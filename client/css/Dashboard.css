@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+}
+
+#dashboardContainer {
+  display: flex;
+  background-color: rgb(15, 28, 61);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#dashboardContainer1 {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  flex: 1;
+}
+
+#monthlySpending {
+  display: flex;
+  flex: 2;
+  border: 1px solid lightblue;
+  margin-bottom: 1rem;
+  background-color: rgb(18, 31, 70);
+  border-radius: 5px;
+}
+
+#transactions {
+  display: flex;
+  flex:1.5;
+  border: 1px solid lightblue;
+  margin-bottom: 1rem;
+  background-color: rgb(18, 31, 70);
+  border-radius: 5px;
+}
+
+#monthlyIncome {
+  display: flex;
+  flex: 1;
+  border: 1px solid lightblue;
+  background-color: rgb(18, 31, 70);
+  border-radius: 5px;
+}
+
+#dashboardContainer2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 5rem;
+}
+
+#accounts {
+  display: flex;
+  flex: 2;
+  border: 1px solid lightblue;
+  margin-bottom: 1rem;
+  background-color: rgb(18, 31, 70);
+  border-radius: 5px;
+}
+
+#topCategories {
+  display: flex;
+  flex: 1;
+  border: 1px solid lightblue;
+  margin-bottom: 1rem;
+  background-color: rgb(18, 31, 70);
+  border-radius: 5px;
+}
+
+#recurrings {
+  display: flex;
+  flex: 1;
+  border: 1px solid lightblue;
+  margin-bottom: 1rem;
+  background-color: rgb(18, 31, 70);
+  border-radius: 5px;
+}
