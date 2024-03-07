@@ -15,6 +15,10 @@
   flex: 1;
 }
 
+.linkDashboard {
+  text-decoration: none;
+}
+
 #monthlySpending {
   display: flex;
   flex: 2;
@@ -22,7 +26,9 @@
   margin-bottom: 1rem;
   background-color: rgb(18, 31, 70);
   border-radius: 5px;
+  justify-content: center;
 }
+
 
 #transactions {
   display: flex;
@@ -31,6 +37,7 @@
   margin-bottom: 1rem;
   background-color: rgb(18, 31, 70);
   border-radius: 5px;
+  justify-content: center;
 }
 
 #monthlyIncome {
@@ -39,6 +46,7 @@
   border: 1px solid lightblue;
   background-color: rgb(18, 31, 70);
   border-radius: 5px;
+  justify-content: center;
 }
 
 #dashboardContainer2 {
@@ -46,6 +54,7 @@
   flex-direction: column;
   flex: 1;
   padding: 5rem;
+  justify-content: center;
 }
 
 #accounts {
@@ -55,6 +64,7 @@
   margin-bottom: 1rem;
   background-color: rgb(18, 31, 70);
   border-radius: 5px;
+  justify-content: center;
 }
 
 #topCategories {
@@ -64,6 +74,7 @@
   margin-bottom: 1rem;
   background-color: rgb(18, 31, 70);
   border-radius: 5px;
+  justify-content: center;
 }
 
 #recurrings {
@@ -73,4 +84,6 @@
   margin-bottom: 1rem;
   background-color: rgb(18, 31, 70);
   border-radius: 5px;
+  justify-content: center;
 }
+
