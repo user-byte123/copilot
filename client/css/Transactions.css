@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+}
+
+#transactionContainer {
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(15, 28, 61);
+  height: 100vh;
+}
+
+.NavBar {
+  display: flex;
+  flex: 1;
+}
+
+#firstBoxTransaction {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+
+  overflow-y: scroll;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.YearContainer2023 {
+  width: 70%;
+  height: 5rem;
+  text-align: center;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  margin: 2rem;
+  background-color: rgb(26, 47, 111);
+}
+
+.monthContainer {
+  width: 70%;
+  height: 5rem;
+  text-align: center;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  margin: 2rem;
+  background-color: rgb(18, 31, 70);
+}
+
+.link {
+  display: flex;
+  text-decoration: none;
+  color: lightblue;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+#secondBoxTransaction {
+  display: flex;
+  flex-direction: column;
+  flex:2;
+}
+
