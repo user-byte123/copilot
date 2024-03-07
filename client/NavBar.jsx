@@ -26,7 +26,7 @@ function NavBar() {
       <div id='searchBar'><div id='searchBarOutline'><Icon><Search style={{color: 'grey'}}/></Icon><input id='searchBarInput' type="text" placeholder='Search'/></div></div>
       <ul id='navBarList'>
         <li className='navLi'><div><Link to='/dashboard' className='navLink'><Icon><NearMe style={{fontSize:'small'}}/></Icon>Dashboard</Link></div></li>
-        <li className='navLi'><div><Link className='navLink'><Icon><Transaction style={{fontSize:'small'}}/></Icon>Transactions</Link></div></li>
+        <li className='navLi'><div><Link to='/transactions' className='navLink'><Icon><Transaction style={{fontSize:'small'}}/></Icon>Transactions</Link></div></li>
         <li className='navLi'><div><Link className='navLink'><Icon><Payment style={{fontSize:'small'}}/></Icon>Accounts</Link></div></li>
         <li className='navLi'><div><Link className='navLink'><Icon><Accounts/></Icon>Investments</Link></div></li>
         <li className='navLi'><div><Link className='navLink'><Icon><Categories style={{fontSize:'small'}}/></Icon>Categories</Link></div></li>
